@@ -212,6 +212,7 @@ main section {
   letter-spacing: -1px;
   color: #385159;
 }
+/* -----------main------ */
 .mainart {
   display: flex;
   flex-direction: column;
@@ -249,7 +250,6 @@ height: 56px; */
   line-height: 140%;
   letter-spacing: -0.5px;
   color: #385159;
-
   background-image: url(./assets/images/icon-check.svg);
   background-repeat: no-repeat;
   background-position: left center;
@@ -319,6 +319,9 @@ article.container.Your_tech {
   background-image: url(./assets/images/pattern-arrow.svg);
   background-repeat: no-repeat;
   background-position: right top;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
 }
 .Your_tech span {
   display: block;
@@ -507,13 +510,11 @@ sup {
 .This_books {
   width: 970px;
   height: 296px;
-  margin-inline: auto;
+  margin-inline: auto; margin-block-end: 120px;
 }
-.This_book {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
+blockquote {
+  display: block;
+  margin: 0;
 }
 .fivestar {
   width: 164px;
@@ -521,24 +522,23 @@ sup {
   background-image: url(./assets/images/icon-star.svg);
   background-size: 20%;
   border-image-repeat: space;
-  /* background-size: contain; */
+  margin-block-end: 32px;
+  margin-inline: auto;
 }
-h4 {
-  /* width: 970px;
-height: 176px; */
-  font-family: "Martian Mono";
-  font-style: normal;
-  font-weight: 600;
+blockquote q {
+  display: block;
+  width: 970px;
+  height: 176px;
   font-size: 34px;
   line-height: 130%;
   text-align: center;
   letter-spacing: -1px;
   color: #062630;
+  margin-inline: auto;
+  margin-bottom: 32px;
 }
-.This_books p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+.This_books cite {
+  display: block;
   font-size: 20px;
   line-height: 140%;
   text-align: center;
@@ -557,9 +557,6 @@ footer {
 footer h2 {
   width: 685px;
   height: 130px;
-  font-family: "Martian Mono";
-  font-style: normal;
-  font-weight: 600;
   font-size: 50px;
   line-height: 130%;
   text-align: center;
@@ -592,6 +589,7 @@ footer button::after {
   width: 24px;
   height: 24px;
   background-image: url(./assets/images/icon-arrow-up.svg);
+  background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -599,6 +597,15 @@ footer button::after {
 }
 footer .develop {
   margin-bottom: 64px;
+}
+footer .develfod{
+width: 266px;
+height: 17px;
+font-size: 14px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -1px;
+color: #FAF5F3;
 }
 .posylanias {
   border-top: 1px solid #385159;
