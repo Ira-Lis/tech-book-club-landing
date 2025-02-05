@@ -248,6 +248,9 @@ article {
   gap: 80px;
   align-items: center;
 }
+.read_not{
+  width: 530px;
+}
 li {
   /* width: 389px;
 height: 56px; */
@@ -266,6 +269,7 @@ height: 56px; */
 ul {
   list-style: none;
   padding-inline-start: 0;
+  width: 431px;
 }
 .not_your {
   /* width: 530px;
@@ -307,6 +311,11 @@ article.container.Your_tech {
   display: flex;
   flex-direction: column;
   gap: 64px;
+}
+.Your_tech h2{
+ text-align: center;
+  width: 512px;
+
 }
 .Your_tech_instr {
   display: flex;
