@@ -90,7 +90,9 @@ h4 {
 header {
   padding-block-start: 32px;
   margin-block-end: 120px;
+  min-height: 834px;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -211,6 +213,9 @@ main section {
   text-align: center;
   letter-spacing: -1px;
   color: #385159;
+}
+img{
+  border-radius:8px ;
 }
 /* -----------main------ */
 .mainart {
