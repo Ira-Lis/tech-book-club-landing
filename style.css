@@ -161,6 +161,16 @@ h1 {
   right: 0;
   transform: translateX(-100%);
 }
+.buthed:hover{
+background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+transition: 0.5s;
+}
+.buthed:focus{
+background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+border: 2px solid #062630;
+box-shadow: 0px 0px 0px 3px #FFFFFF, 0px 0px 0px 5px #385159;
+transition: 0.5s;
+}
 .gwiazdy {
   padding-block-start: 28px;
   position: relative;
@@ -249,6 +259,10 @@ li {
   margin-bottom: 24px;
   padding-inline-start: 42px;
 }
+.card li:last-child {
+  margin-bottom: 0px;
+  padding-inline-start: 42px;
+}
 ul {
   list-style: none;
   padding-inline-start: 0;
@@ -259,6 +273,9 @@ ul {
   line-height: 140%;
   letter-spacing: -0.5px;
   color: #385159;
+}
+.read_not_div h2{
+  margin-block-end: 24px;
 }
 .read_not_div span {
   position: relative;
@@ -469,6 +486,17 @@ hr {
   color: #062630;
   text-transform: uppercase;
 }
+.cena button:hover{
+background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+border: 2px solid #062630;
+transition: 0.5s;
+}
+.cena button:focus{
+background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+border: 2px solid #062630;
+box-shadow: 0px 0px 0px 3px #FFFFFF, 0px 0px 0px 5px #385159;
+transition: 0.5s;
+}
 .membership li {
   padding-inline-start: 36px;
 }
@@ -489,7 +517,6 @@ hr {
   border: 2px solid #062630;
   border-radius: 8px;
 }
-
 sup {
   font-family: "Inter";
   font-style: normal;
@@ -577,6 +604,16 @@ footer button {
   background-color: #fff5ef00;
   margin-bottom: 24px;
 }
+footer button:hover{
+background: linear-gradient(90deg, #385159 0%, #062630 100%);
+transition: 0.5s;
+}
+footer button:focus{
+background: linear-gradient(90deg, #385159 0%, #062630 100%);
+border: 2px solid #FFFFFF;
+box-shadow: 0px 0px 0px 3px #062630, 0px 0px 0px 5px #E6E1DF;
+transition: 0.5s;
+  }
 footer button::after {
   content: "";
   display: inline-block;
@@ -591,6 +628,15 @@ footer button::after {
 }
 footer .dev{
   margin-block-end: 64px;
+}
+footer .dev p{
+width: 266px;
+height: 17px;
+font-size: 14px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -1px;
+color: #FAF5F3;
 }
 .posylanias {
   border-top: 1px solid #385159;
@@ -634,7 +680,9 @@ a {
 }
 
 .tw:hover {
-  background-image: url(./images/tw-h.png);
+color: #FFFFFF;
+opacity: 0.6;
+
 }
 .ins:hover {
   background-image: url(./images/ins-h.png);
