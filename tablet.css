@@ -1,0 +1,99 @@
+@media (max-width: 1180px) {
+    body,header{
+        margin-inline: auto;
+    }
+  .flxhead {
+    gap: 64px;
+  }
+  main section {
+    gap: 80px;
+  }
+  header {
+    margin-block-end: 80px;
+    min-height: 1558px;
+  }
+  .join {
+    width: 704px;
+    height: 491px;
+    padding-block: 0px;
+  }
+  .card {
+    gap: 40px;
+  }
+  .odvrot {
+    flex-direction: column-reverse;
+  }
+  article {
+    width: 850px;
+  }
+
+  p.not_your.inter-regul {
+    width: 704px;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: #385159;
+  }
+  .logos-tech {
+    bottom: 0;
+    left: 100%;
+    transform: translateX(-50%) translateY(-20%);
+  }
+  .bezMob {
+    display: none;
+  }
+  .membership {
+    gap: 40px;
+    
+  }
+  .cena {
+    width: 704px;
+    height: 740px;
+    gap: 24px;
+  }
+  div.enter,
+div.st {
+
+  width: 340px;
+  height: 358px;
+  
+}
+.pro {
+  padding: 24px;
+ 
+  width: 340px;
+  height: 358px;
+ 
+}
+.cena button {
+  width: 292px;
+  height: 63px;
+}
+.This_books {
+  width: 768px;
+  height: 384px;
+  margin-inline: auto;
+  margin-block-end: 80px;
+  padding-inline: 32px;
+ 
+}
+blockquote q {
+  width: 704px;
+  height: 264px;
+text-align: start;
+}
+.fivestar {
+margin-inline-start: 0;
+}
+.This_books cite {
+  display: block;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: start;
+  letter-spacing: -0.5px;
+  color: #385159;
+}
+footer {
+  padding-block-start: 64px;
+}
+}

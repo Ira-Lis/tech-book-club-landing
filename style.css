@@ -81,6 +81,10 @@ h4 {
   width: 100vh;
   margin-inline-start: auto;
 } */
+ .container{
+  max-width: 1174px;
+  margin-inline: auto;
+ }
 .flxhead {
   display: flex;
   flex-direction: column;
@@ -102,6 +106,8 @@ header {
 .name {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   flex-grow: 1;
   width: 100%;
   gap: 64px;
@@ -241,7 +247,8 @@ article {
   display: flex;
   flex-direction: row;
   gap: 80px;
-  align-items: center;
+  align-items: center; 
+   flex-wrap: wrap;
 }
 .read_not {
   width: 530px;
@@ -370,11 +377,12 @@ article.container.Your_tech {
   gap: 64px;
   /* background-color: #bbebb0; */
   width: 970px;
-  height: 519px;
+  /* height: 519px; */
 }
 .cena {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   width: 970px;
   height: 390px;
@@ -557,6 +565,7 @@ blockquote q {
   color: #062630;
   margin-inline: auto;
   margin-bottom: 32px;
+  quotes: none;
 }
 .This_books cite {
   display: block;
@@ -680,10 +689,11 @@ a {
 }
 
 .tw:hover {
-color: #FFFFFF;
+color: #ffffff;;
 opacity: 0.6;
 
 }
 .ins:hover {
-  background-image: url(./images/ins-h.png);
+  color: #ffffff;
+opacity: 0.6;
 }
