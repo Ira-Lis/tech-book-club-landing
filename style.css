@@ -51,22 +51,21 @@ footer {
 }
 
 header {
-  /* background-image: url(./assets/images/pattern-light-bg.svg);
-  padding-block-start: 32px;
-  padding-block-end: 80px;
-  background-image: url(./assets/images/pattern-glow.svg); */
-  /* background-image: url(./assets/images/pattern-light-bg.svg),
-    url(assets/images/pattern-glow.svg),
-    linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)); */
-  background-image: url(./assets/images/pattern-light-bg.svg),
-    url(assets/images/pattern-glow.svg),
-    radial-gradient(
-      circle,
-      rgba(156, 201, 218, 0.5074404761904762) 41%,
-      rgba(250, 245, 243, 0.8239670868347339) 72%
-    );
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom right, left, 500px;
+  background-color: #faf5f3;
+  background-image: url(./assets/images/pattern-light-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.kolo {
+  position: absolute;
+  width: 684px;
+  height: 684px;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-50%);
+  background: #9cc9da;
+  opacity: 0.4;
+  filter: blur(100px);
 }
 h1,
 p,
@@ -217,7 +216,6 @@ h1 {
 }
 .headFoto {
   max-width: 540px;
-  /* min-height:606px; */
 }
 img {
   border-radius: 8px;
@@ -230,7 +228,6 @@ main section {
 }
 main img {
   max-width: 560px;
-  /* min-height:250px; */
 }
 h2 {
   margin: 0;
@@ -242,10 +239,6 @@ h2 {
 .card h2 {
   margin-block-end: 34px;
 }
-/* article img {
-  width: 560px;
-  height: 520px;
-} */
 article {
   max-width: 1170px;
 }
@@ -595,7 +588,6 @@ blockquote q {
 }
 footer h2 {
   max-width: 685px;
-  /* height: 130px; */
   font-size: 50px;
   line-height: 130%;
   text-align: center;
