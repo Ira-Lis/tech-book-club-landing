@@ -1,0 +1,88 @@
+@media (max-width: 400px) {
+  body {
+    /* padding: 24px 16px; */
+  }
+  header {
+    padding-block-start: 24px;
+    margin-block-end: 80px;
+    padding-inline: 16px;
+    padding-block-end: 0;
+  }
+  h1 {
+    width: 343px;
+    height: 138px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: -2px;
+  }
+  .buthed {
+    width: 343px;
+    font-size: 16px;
+  }
+  .headFoto {
+    max-width: 343px;
+  }
+  main {
+    padding-inline: 16px;
+  }
+  main img {
+    max-width: 343px;
+  }
+  main section {
+    gap: 64px;
+  }
+  .odvrot {
+    margin-block-start: 64px;
+  }
+  .card h2 {
+    font-size: 34px;
+    margin-block-end: 24px;
+  }
+  .card li {
+    margin-block-end: 16px;
+  }
+  .read_not_div span::after {
+    content: url(./assets/images/pattern-circle.png);
+    position: absolute;
+  }
+  .logos-tech {
+    display: none;
+  }
+  .membership h2 {
+    font-size: 34px;
+  }
+  .cena button {
+    font-size: 16px;
+  }
+  .This_books {
+    padding: 0px;
+    margin-block-end: 64px;
+  }
+  blockquote q {
+    font-size: 24px;
+    line-height: 110%;
+  }
+  footer h2 {
+    max-width: 343px;
+    font-size: 34px;
+    line-height: 130%;
+    letter-spacing: -2px;
+  }
+  .footflex {
+    padding-block-start: 48px;
+  }
+  footer button {
+    width: 345px;
+  }
+  footer {
+    padding: 0 16px 24px;
+    border-radius: 16px 16px 0px 0px;
+  }
+  .posylanias {
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    padding-block-end: 0;
+  }
+}

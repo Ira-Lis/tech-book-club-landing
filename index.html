@@ -13,7 +13,8 @@
 
     <title>Frontend Mentor | Tech book club</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -52,21 +53,20 @@
               </div>
             </div>
             <img
+              class="headFoto"
               src="./assets/images/image-hero-desktop.webp"
               alt=""
-              srcset="./assets/images/image-hero-mobile.webp 375w,
-              ./assets/images/image-hero-tablet.webp 768w,
-              ./assets/images/image-hero-desktop.webp 1440w
+              srcset="
+                ./assets/images/image-hero-mobile.webp   375w,
+                ./assets/images/image-hero-tablet.webp   768w,
+                ./assets/images/image-hero-desktop.webp 1440w
               "
               sizes="
               (max-width: 375px) 375px,
               (max-width: 768px) 768px,
               100vw
               "
-              width="540px"
-              height="606px"
             />
-           
           </section>
         </div>
       </div>
@@ -102,8 +102,9 @@
               </h2>
               <p class="not_your inter-regul">
                 Connect with a community that speaks your language - from
-                <b class="inter-semibold">Python</b> to <b class="inter-semibold">TypeScript</b> and everything in between.
-                Our discussions blend technical depth with practical
+                <b class="inter-semibold">Python</b> to
+                <b class="inter-semibold">TypeScript</b> and everything in
+                between. Our discussions blend technical depth with practical
                 applications.
               </p>
             </div>
@@ -197,14 +198,18 @@
     </main>
 
     <footer>
-      <div class="ready">
-        <h2 class="martian-mono-semibold">Ready to debug your reading list?</h2>
-      </div>
-      <button class="martian-mono-semibold">Review membership options</button>
+      <div class="footflex">
+        <div class="ready">
+          <h2 class="martian-mono-semibold">
+            Ready to debug your reading list?
+          </h2>
+        </div>
+        <button class="martian-mono-semibold">Review membership options</button>
 
-      <div class="dev">
-        <div class="gwiazdy">
-          <p class="martian-mono-regular">200+ developers joined already</p>
+        <div class="dev">
+          <div class="gwiazdy">
+            <p class="martian-mono-regular">200+ developers joined already</p>
+          </div>
         </div>
       </div>
 
